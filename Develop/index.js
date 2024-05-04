@@ -1,6 +1,9 @@
 // TODO: Include packages needed for this application
 const inquerer = require("inquirer");
 const fs = require("fs");
+const path = require("path");
+const generateMarkdown = require("./utils/generateMarkdown");
+
 // TODO: Create an array of questions for user input
 const questions = [
   {
@@ -68,7 +71,8 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
   inquerer.prompt(questions).then(answers => {
-    const readmeContent = generateREADME(answers);
+    const readmeContent = generateMarkdown(answers);
+    writeToFile("README.md", readmeContent);
   });
 }
 
