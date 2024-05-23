@@ -1,8 +1,8 @@
-# Node.js README Generator
+# README-GENERATOR
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This command-line application dynamically generates a professional README.md file based on user inputs, streamlining documentation for new projects
+This command-line application dynamically generates a professional README.md
 
 ## Table of Contents
 - [Installation](#installation)
@@ -14,23 +14,23 @@ This command-line application dynamically generates a professional README.md fil
 
 ## Installation
 ```
-Clone the repository, then navigate to the folder and run npm install to set up all necessary dependencies
+npm install
 ```
 
 ## Usage
-Execute the application by running node index.js in your terminal, follow the prompts to input project details, and a README.md will be generated accordingly.
+Execute the application by running node index.js
 
 ## Contributing
-To contribute to this project, please fork the repo, create a new branch for your modifications, and then submit a pull request for review
+To contribute to this project, please fork the repo
 
 ## Tests
 To run tests, run the following command:
 ```
-To run tests, execute npm test in the terminal which will run all predefined test scripts to ensure functionality.
+npm test
 ```
 
 ## License
 This project is licensed under the MIT license. For more information, see [here](https://opensource.org/licenses/MIT).
 
 ## Questions
-If you have any questions about the repo, open an issue or contact me directly at brendahaightt@gmail.com. You can find more of my work at [BrendaHaight](https://github.com/BrendaHaight/).
+If you have any questions about the repo, open an issue or contact me directly at brendahaightt@gmail.com. You can find more of my work at [BrendaHaigt](https://github.com/BrendaHaigt/).
